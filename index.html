@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Della+Respira&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Yatzy</title>
+    </head>
+    <body>
+        <header>YATZY</header>
+        <div>
+            <div id="scoreboard">
+                <div id="topScore">
+                    <div id="score1">
+                        <p>Ones</p>
+                        <p> - </p>
+                    </div>
+                    <div id="score2">
+                        <p>Twos</p>
+                        <p> - </p>
+                    </div>
+                    <div id="score3">
+                        <p>Threes</p>
+                        <p> - </p>
+                    </div>
+                    <div id="score4">
+                        <p>Fours</p>
+                        <p> - </p>
+                    </div>
+                    <div id="score5">
+                        <p>Fives</p>
+                        <p> - </p>
+                    </div>
+                    <div id="score6">
+                        <p>Sixes</p>
+                        <p> - </p>
+                    </div>
+                    <div id="topScores">
+                        <p>Points</p>
+                        <p> - </p>
+                    </div>
+                </div>
+                <div id="finishing">
+                    <div id="pair">
+                        <p>Pair</p>
+                        <p> - </p>
+                    </div>
+                    <div id="twoPairs">
+                        <p>Two Pairs</p>
+                        <p> - </p>
+                    </div>
+                    <div id="threeKind">
+                        <p>Three of A Kind</p>
+                        <p> - </p>
+                    </div>
+                    <div id="fourKind">
+                        <p>Four of A Kind</p>
+                        <p> - </p>
+                    </div>
+                    <div id="sStraight">
+                        <p>Small Straight</p>
+                        <p> - </p>
+                    </div>
+                    <div id="lStraight">
+                        <p>Large Straight</p>
+                        <p> - </p>
+                    </div>
+                    <div id="fullHouse">
+                        <p>Full House</p>
+                        <p> - </p>
+                    </div>
+                    <div id="chance">
+                        <p>Chance</p>
+                        <p> - </p>
+                    </div>
+                    <div id="yatzy">
+                        <p>YAHTZEE!</p>
+                        <p> - </p>
+                    </div>
+                </div>
+                <div id="totalScore">
+                    <h3>Total:</h3>
+                    <p>-</p>
+                </div>
+            </div>
+            <div id="savedDices">
+            </div>
+            <div id="results">
+            </div>
+            <div id="knappar">
+                <button id="playButton">
+                    Roll The Dices.
+                </button>
+
+                <div id='throwsLeft'>Rolls left: <span></span></div>
+
+                <button id="saveScore">
+                    Add dices to score.
+                </button>
+                <button id="resetGame">Reset Game</button>
+
+            </div>
+        </div>
+    </body>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="data.js"></script>
+    <script src="scriptAux.js"></script>
+    <script src="script.js"></script>
+</html>

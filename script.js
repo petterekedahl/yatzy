@@ -25,7 +25,7 @@ function resetDivs(){
     $('#results').empty()
     $('#throwsLeft > span').html('3');
 
-    $('#savedDices').html('Save your dices by clicking on them.')
+    $('#savedDices').html('Save your dices by clicking on them. Once your happy with your dices or you run out of rolls, press the "Add dices to score" button.')
 
     for(let i = 1; i < 6; i++){
         $('#results').append($(`<div class='sladaTarningar'>-</div>`))
